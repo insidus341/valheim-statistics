@@ -4,7 +4,7 @@ RUN apt-get update && apt install python3-pip -y
 
 COPY app /app
 
-ADD https://github.com/insidus341/valheim-bot/blob/master/app/server_stats.py /app/server_stats.py
+ADD hhttps://raw.githubusercontent.com/insidus341/valheim-bot/master/app/server_stats.py /app/server_stats.py
 
 WORKDIR /app
 
